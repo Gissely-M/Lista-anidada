@@ -223,7 +223,7 @@ int main() {
 					}
             	} while (id <= 0 || registro.idExiste(id));
             	
-                cout << "Ingrese Nombre: ";
+                cout << "Ingrese el nombre del estudiante: ";
 				cin.ignore();
 				getline(cin, nombre);
                 promedio = leerPromedioValido();
